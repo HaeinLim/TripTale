@@ -95,10 +95,10 @@
     </tr>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/6539cb42-2b1d-4cc3-bf84-82d0268d0a98" width="500" height="500">
+        <img src="https://github.com/user-attachments/assets/6539cb42-2b1d-4cc3-bf84-82d0268d0a98" width="400" height="300">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/6a91068b-d972-4164-8a1f-524ad31e7654" width="500" height="500">
+        <img src="https://github.com/user-attachments/assets/6a91068b-d972-4164-8a1f-524ad31e7654" width="400" height="300">
       </td>
     </tr>
     <tr>
