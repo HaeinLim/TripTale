@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>TripTale</title>
+        <link href="signUp.css" rel="stylesheet" type="text/css"> <!--css 불러오기-->
+    </head>
+    <body>
+        <div class="signup-container">
+            <img src="../images/logo.png" alt="로고 이미지" class="logo"> <!--로고 이미지-->
+            <h2>Sign Up</h2>
+            <form id="signUpform"> <!--회원가입 라벨-->
+
+                <label for="email">ID:</label> <!--이메일-->
+                <input type="text" id="userId" name="userId" required>
+
+                <label for="password">Password:</label> <!--비밀번호-->
+                <input type="password" id="password" name="password" required>
+
+                <label>Confirm Password: </label> <!--비밀번호 확인-->
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                             
+                <button type="submit" id="signUpBtn">Sign up</button> <!--회원가입 버튼-->
+               
+            </form>
+        </div>
+        <script src="signUp.js"></script>
+    </body>    
+</html>

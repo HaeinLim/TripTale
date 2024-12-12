@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* header {
+    background-color: #003366;
+    padding: 20px 0;
+    text-align: center;
+} */
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid #8ec5fc;
+    object-fit: cover; /* 이미지를 컨테이너 안에 맞춤 */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-color: #f5f5dc;
+    background: url('../images/background.png');
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background-image: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Background blur effect */
+    text-align: center;
+}
+
+.textArea {
+    width: 400px;
+    height: 300px;
+    border: 2px solid; 
+    border-image: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+    border-image-slice: 1;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+#clickImg {
+    width: 80px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #e0c3fc;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.voiceImg {
+    margin-bottom: 20px; 
+}
+
+#voiceBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#nextBtn {
+    width: 100%;
+    height: 48px;
+    background-color: #ff9aa2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#nextBtn:hover {
+    background-color: #ff6f91;
+}
+
+#logout{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    background-color: #ff9aa2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#logout:hover {
+    background-color: #ff6f91;
+}
