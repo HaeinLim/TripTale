@@ -48,7 +48,7 @@
       </tr>
       <tr>
         <td>
-          <img src="https://github.com/user-attachments/assets/6d8cd415-f504-4443-b60d-22866c0f3507" width="500" height="300">
+          <img src="https://github.com/user-attachments/assets/6d8cd415-f504-4443-b60d-22866c0f3507" width="400" height="500">
         </td>
       </tr>
       <tr>
