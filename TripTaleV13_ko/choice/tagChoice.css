@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #f7f4ef; /* 일본풍의 부드러운 색상 */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('../images/background.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  backdrop-filter: blur(10px); /* Background blur effect */
+  text-align: center;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 2px solid #8ec5fc;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.counter {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 그리드 */
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.option {
+  background-color: #f9f6f2;
+  border: 2px solid #e0dcdc;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  text-align: center;
+}
+
+.option.selected {
+  background-color: #e6d9d4;
+  border-color: #b09187;
+}
+
+.option:hover {
+  background-color: #ece8e4;
+  transform: scale(1.05); /* 옵션 hover 시 약간 커지도록 설정 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #b09187;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#prevBtn{
+  width: 40%;
+  height: 48px;
+  background-color: #ff9aa2;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#prevBtn:hover {
+  background-color: #ff6f91;
+}
+
+#nextBtn {
+  width: 40%;
+  height: 48px;
+  background-color: #ff9aa2;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#nextBtn:hover {
+  background-color: #ff6f91;
+}
+
+#logout{
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: #ff9aa2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+
+}
+
+#logout:hover {
+  background-color: #ff6f91;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripTale</title>
+  <link rel="stylesheet" href="tagChoice.css">
+</head>
+<body>
+
+<div class="container">
+  <button id="logout">log-out</button>  
+  
+  <!-- 로고 이미지 추가 -->
+  
+  <img src="../images/logo.png" alt="TripTale Logo" class="logo">
+  
+
+  <h1>Select Detailed Options</h1>
+  
+  <div id="option-container-2" class="option-container">
+    <div class="counter">Choice: <span id="selected-count">0</span>/3</div>
+    
+    <!-- 6개의 선택지가 여기서 동적으로 생성됨 -->
+    <div class="grid-container" id="gridContainer">
+      <!-- JS로 동적 생성될 예정 -->
+    </div>
+  </div>
+  
+  <div class="button-container">
+    <button class="prev-button" id="prevBtn">Pre</button>
+    <button class="next-button" id="nextBtn" disabled>Next</button>
+  </div>
+
+</div>
+
+<script src="tagChoice.js"></script>
+
+</body>
+</html>

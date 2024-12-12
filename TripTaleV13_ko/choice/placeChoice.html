@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripTale</title>
+  <link rel="stylesheet" href="placeChoice.css">
+</head>
+<body>
+  
+  
+
+  <div class="container">
+    <button id="logout">log-out</button>  
+
+    <!-- 로고 이미지 추가 -->
+    <div>
+      <img src="../images/logo.png" alt="TripTale Logo" class="logo">
+    </div>
+
+    <h1>장소 선택</h1>
+    
+    <div id="option-container-1" class="option-container">
+      <div class="option" tabindex="0" data-option="명소">
+        <h3>sights(명소)</h3>
+      </div>
+      <div class="option" tabindex="0" data-option="로컬">
+        <h3>local(로컬)</h3>
+      </div>
+    </div>
+    
+    <div class="button-container">
+      <button id="nextBtn" disabled>Next</button>
+    </div>
+
+  </div>
+
+<script src="placeChoice.js"></script>
+
+</body>
+</html>
