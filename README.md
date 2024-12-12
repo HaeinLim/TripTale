@@ -48,7 +48,7 @@
       </tr>
       <tr>
         <td>
-          <img src="https://github.com/user-attachments/assets/6d8cd415-f504-4443-b60d-22866c0f3507" width="400" height="200">
+          <img src="https://github.com/user-attachments/assets/6d8cd415-f504-4443-b60d-22866c0f3507" width="500" height="300">
         </td>
       </tr>
       <tr>
@@ -65,14 +65,14 @@
 <div align="center">
   <table align="center">
     <tr>
-      <th>아이디 확인</th><th>비밀번호 변경</th><th>
+      <th>아이디 확인</th><th>비밀번호 변경</th>
     </tr>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/86611bf7-47ca-488a-9af1-f8ca9a84fb78" width="400" height="200">
+        <img src="https://github.com/user-attachments/assets/86611bf7-47ca-488a-9af1-f8ca9a84fb78" width="500" height="300">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/0f6b30f2-d38c-400b-8a58-12c9f64aef41" width="400" height="200">
+        <img src="https://github.com/user-attachments/assets/0f6b30f2-d38c-400b-8a58-12c9f64aef41" width="500" height="300">
       </td>
     </tr>
     <tr>
