@@ -153,13 +153,13 @@
     </tr>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/3659fc92-3ea9-4e51-ae2d-04ea867deffa" width="400" height="400">
+        <img src="https://github.com/user-attachments/assets/3659fc92-3ea9-4e51-ae2d-04ea867deffa" width="400" height="300">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/640ad2e9-3e67-4407-8f22-b9b313243eed" width="400" height="400">
+        <img src="https://github.com/user-attachments/assets/640ad2e9-3e67-4407-8f22-b9b313243eed" width="400" height="300">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/c23da6d5-dda9-4944-bed9-a99fd883dd4d" width="400" height="400">
+        <img src="https://github.com/user-attachments/assets/c23da6d5-dda9-4944-bed9-a99fd883dd4d" width="400" height="300">
       </td>
     </tr>
     <tr>
